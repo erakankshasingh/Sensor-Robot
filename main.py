@@ -102,7 +102,7 @@ while True:
     reached = True
 
     # 10) Create a for loop from 0 to range number of steps from step 8
-    for i in range(8):
+    for i in range(steps):
         # 11) move the right and left motor one step
         right_stepper.move_one_step()
         left_stepper.move_one_step()
